@@ -3,7 +3,7 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/art/develop/java/clinic/ui/fx/MainWindow.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/art/develop/java/clinic/ui/fx/TestClass.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/art/develop/java/clinic/ui/fx/ssClass.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/Images/image.jpg" charset="UTF-8" />
   </component>
 </project>
