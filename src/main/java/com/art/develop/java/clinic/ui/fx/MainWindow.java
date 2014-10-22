@@ -80,7 +80,6 @@ public class MainWindow extends Application {
                 btn.setLayoutX(80);
                 btn.setScaleX(1.8);
                 btn.setLayoutY(170);
-                btn.setTranslateZ(-50);
                 btn.setPrefSize(150,100);
                 btn.setTooltip(new Tooltip
                         ("Это кнопка тестирования свойств класса Button"));
