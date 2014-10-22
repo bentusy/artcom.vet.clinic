@@ -66,7 +66,7 @@ public class MainWindow extends Application {
             public void handle(ActionEvent event) {
 
                 btn.setBlendMode(BlendMode.DARKEN);
-                //javafx.scene.shape.Circle clip=new javafx.scene.shape.Circle(75,53,80);
+                javafx.scene.shape.Circle clip=new javafx.scene.shape.Circle(75,53,80);
 // btn.setClip(clip);
                 btn.setCursor(Cursor.CLOSED_HAND);
                 DropShadow effect=new DropShadow();
@@ -81,14 +81,11 @@ public class MainWindow extends Application {
                 btn.setScaleX(1.8);
                 btn.setLayoutY(170);
                 btn.setTranslateZ(-50);
-                btn.setPrefSize(150, 100);
+                btn.setPrefSize(150,100);
                 btn.setTooltip(new Tooltip
                         ("Это кнопка тестирования свойств класса Button"));
-                Class aClass = this.getClass();
-                URL resource = aClass.getResource("/images/image.jpg");
-                String pass = resource.toString();
-                Image im=new Image(pass);
-                ImageView imv=new ImageView(im);
+               Image im=new Image(this.getClass().getResource("/images/image.jpg").toString());
+               ImageView imv=new ImageView(im);
                 imv.setFitHeight(50);
                 imv.setFitWidth(50);
                 btn.setGraphic(imv);

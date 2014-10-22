@@ -1,6 +1,5 @@
 <component name="ArtifactManager">
   <artifact type="javafx" build-on-make="true" name="artcom.vet.clinic">
-    <output-path>$USER_HOME$/Desktop</output-path>
     <properties id="javafx-properties">
       <options>
         <option name="appClass" value="com.art.develop.java.clinic.ui.fx.MainWindow" />
@@ -11,11 +10,6 @@
         <option name="vendor" value="Bent" />
       </options>
     </properties>
-    <root id="root">
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
-      </element>
-      <element id="module-output" name="artcom.vet.clinic" />
-    </root>
+    <root id="root" />
   </artifact>
 </component>
