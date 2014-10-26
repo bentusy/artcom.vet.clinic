@@ -28,6 +28,6 @@
    </opaqueInsets>
    <children>
 
-      <Button id="button1" fx:id="button1" cacheHint="SCALE" depthTest="ENABLE" mnemonicParsing="false" styleClass="button1" text="Button" GridPane.columnIndex="1" />
+      <Button id="button1" fx:id="button1" cacheHint="SCALE" contentDisplay="TOP" depthTest="ENABLE" mnemonicParsing="false" onMouseClicked="#Clicer" styleClass="button1" text="Button" GridPane.columnIndex="1" />
    </children>
 </GridPane>
