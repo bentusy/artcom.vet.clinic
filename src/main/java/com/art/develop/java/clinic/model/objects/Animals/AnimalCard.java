@@ -2,8 +2,7 @@ package com.art.develop.java.clinic.model.objects.Animals;
 
 import com.art.develop.java.clinic.model.interfaces.Journal.Event;
 import com.art.develop.java.clinic.model.interfaces.animal.Animalcard;
-import com.art.develop.java.clinic.model.interfaces.animal.Breed;
-import com.art.develop.java.clinic.model.interfaces.animal.Colour;
+
 import com.art.develop.java.clinic.model.interfaces.animal.Species;
 import com.art.develop.java.clinic.model.interfaces.human.Owners;
 
