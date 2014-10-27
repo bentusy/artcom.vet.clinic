@@ -12,6 +12,7 @@ import java.util.ArrayList;
  * Created by Artem on 1988,20,10.
  */
 public class AnimalCard implements Animalcard {
+
     Integer age;
     boolean sex;
     private Owners owners;
