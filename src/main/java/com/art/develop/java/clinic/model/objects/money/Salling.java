@@ -5,4 +5,5 @@ package com.art.develop.java.clinic.model.objects.money;
  */
 public class Salling {
 
+
 }
